@@ -19,8 +19,8 @@
 .right {
   right: 0;
   background-color: #ffffff;
-background-size: 20px 20px;
-background-image:  repeating-linear-gradient(0deg, #bec0f556, #bec0f556 1px, #ffffff 1px, #ffffff);
+  background-size: 20px 20px;
+  background-image:  repeating-linear-gradient(0deg, #bec0f556, #bec0f556 1px, #ffffff 1px, #ffffff);
 }
 
 .centered {
