@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
 .split {
   height: 100%;
   width: 50%;
@@ -10,11 +13,14 @@
 
 .left {
   left: 0;
-  background-color: #0f62fe;
+  background-color: #fcbdbd;
 }
 
 .right {
   right: 0;
+  background-color: #ffffff;
+  background-size: 20px 20px;
+  background-image:  repeating-linear-gradient(0deg, #bec0f556, #bec0f556 1px, #ffffff 1px, #ffffff);
 }
 
 .centered {
@@ -26,7 +32,9 @@
 }
 
 .name_title {
-  font-size: 48px;
+  font-family:"Nanum Pen Script";
+  font-size: 40px;
+  font-weight: bold;
   color: black;
   text-align: left;
   padding-bottom: 20px;
@@ -34,9 +42,20 @@
 
 .brief_description {
   text-align: left;
+  color: black;
 }
 
 .profile_image {
-  width: 500px;
+  width: 300px;
   height: auto;
+}
+
+.profile_image {
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: circle; 
+  background: #ffeded;
+  padding: 60px
 }

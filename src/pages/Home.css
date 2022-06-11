@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
 .Home {
-  background-color: ghostwhite;
+  background-color: #ffffff;
+  background-size: 20px 20px;
+  background-image:  repeating-linear-gradient(0deg, #bec0f556, #bec0f556 1px, #ffffff 1px, #ffffff);
   height: 100vh;
 }
+
+.todoTitle {
+  font-size: 150px;
+  font-family:"Nanum Pen Script";
+}
+
